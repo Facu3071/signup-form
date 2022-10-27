@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Intro component with sign up form</title>
+</head>
+
+<body>
+  <main>
+    <div class="first-container">
+      <div class="text-main">
+        <p>Learn to code by </p>
+        <p>watching others</p>
+      </div>
+      <p class="paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+        great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="second-container">
+      <div class="publicity">
+        <p><span>Try it free 7 days</span> then </p>
+        <p>$20/mo. thereafter</p>
+      </div>
+      <form class="form">
+        <div class="form-container">
+          <div class="input-container">
+            <input id="firstname" type="text" placeholder="First Name">
+            <img src="/images/icon-error.svg" alt="Icon" class="icon-error">
+            <p class="text-error">First Name cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input id="lastname" type="text" placeholder="Last Name">
+            <img src="/images/icon-error.svg" alt="Icon" class="icon-error">
+            <p class="text-error">Last Name cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input id="email" type="email" placeholder="Email Address" name="email">
+            <img src="/images/icon-error.svg" alt="Icon" class="icon-error">
+            <p class="text-error">Looks like this is not an email</p>
+          </div>
+          <div class="input-container">
+            <input id="password" type="password" placeholder="Password">
+            <img src="/images/icon-error.svg" alt="Icon" class="icon-error">
+            <p class="text-error">Password cannot be empty</p>
+          </div>
+          <input type="submit" class="input-submit" value="Claim your free trial ">
+        </div>
+        <p class="paragraph-small">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </form>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
